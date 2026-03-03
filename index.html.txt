@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Весеннее вдохновение / Көктемгі шабыт</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* --- Общий стиль --- */
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #ff9ec4, #ffd6e8, #ffeaa7);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      overflow-x: hidden;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      margin-top: 40px;
+      color: #d84315;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    p {
+      text-align: center;
+      font-size: 1.2em;
+      color: #333;
+      margin: 10px 20px;
+    }
+
+    .form-container {
+      max-width: 500px;
+      margin: 30px auto;
+      padding: 30px;
+      background: rgba(255,255,255,0.9);
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+
+    input[type="text"], select {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      background: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #e91e63;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    /* --- Анимация
